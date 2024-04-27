@@ -95,9 +95,11 @@ public class Fight {
 
     public void monsterLvUp() {
         int i = 1;
+        int m = 1;
+        m++;
         i++;
-        monsterLv++;
-        monsterHp *= i;
+        monsterLv = m + 1;
+        monsterHp = 100 + i;
     }
 
     public void soliderMoneySum() {
