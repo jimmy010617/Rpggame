@@ -133,6 +133,7 @@ public class Main {
             System.out.println(solider.getName() + "가 죽었습니다. 최종 레벨 : " + solider.getLv());
             System.out.println("게임을 종료합니다. ");
             System.exit(0);
+            return true;
         }
         return false;
     }
