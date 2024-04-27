@@ -98,7 +98,7 @@ public class Fight {
         int m = 1;
         m++;
         i++;
-        monsterLv = m + 1;
+        monsterLv += m;
         monsterHp = 100 + i;
     }
 
