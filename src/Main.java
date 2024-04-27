@@ -127,6 +127,7 @@ public class Main {
             fight.soliderMoneySum();
             System.out.println("총 획득한 돈 : " + fight.getSoliderMoney());
             return true;
+            
         } else if (fight.isSoliderDie()) {
             fight.fightEnd();
             System.out.println(solider.getName() + "가 죽었습니다. 최종 레벨 : " + solider.getLv());
